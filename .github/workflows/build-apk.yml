@@ -14,6 +14,8 @@ jobs:
         with: {distribution: temurin, java-version: 17}
       - run: npm install
       - run: npm run build
+      - name: Config Capacitor
+        run: echo '{"appId":"com.emmanuel.codepocket","appName":"CodePocket","webDir":"dist"}' > capacitor.config.json
       - run: npx cap add android
       - run: npx cap sync android
       - run: cd android && chmod +x gradlew && ./gradlew assembleDebug
