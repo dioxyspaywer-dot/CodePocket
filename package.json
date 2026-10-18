@@ -1,4 +1,0 @@
-{"name":"codepocket","version":"1.0.0","private":true,"type":"module",
-"scripts":{"build":"vite build"},
-"dependencies":{"@capacitor/android":"^6.1.2","@capacitor/core":"^6.1.2","@capacitor/filesystem":"^6.0.1","@capacitor/share":"^6.0.2","codemirror":"^6.0.1","@codemirror/state":"^6.4.1","@codemirror/commands":"^6.6.0","@codemirror/theme-one-dark":"^6.1.2","@codemirror/lang-javascript":"^6.2.2","@codemirror/lang-html":"^6.4.9","@codemirror/lang-css":"^6.3.0","@codemirror/lang-json":"^6.0.1","@codemirror/lang-python":"^6.1.6","@codemirror/lang-markdown":"^6.2.5","jszip":"^3.10.1","idb-keyval":"^6.2.1"},
-"devDependencies":{"@capacitor/cli":"^6.1.2","vite":"^5.4.0"}}
