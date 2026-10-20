@@ -59,7 +59,7 @@ body.menu #side{transform:none}
 .selbar{display:flex;gap:8px;margin-bottom:12px}.selbar button{flex:1;height:40px;font-size:13px}
 .fr{display:flex;align-items:center;min-height:38px;padding-left:calc(4px + var(--d,0)*12px);border-radius:10px}.fr.sel{background:var(--acs)}
 .fr .nm{flex:1;min-width:0;display:flex;align-items:center;gap:8px;min-height:38px;padding:5px 0;white-space:normal;overflow-wrap:anywhere;line-height:1.3}
-.tree{display:grid;grid-template-columns:minmax(100%,max-content);overflow-x:auto;padding-bottom:8px}.tree .fr .nm{white-space:nowrap;overflow-wrap:normal;flex:1 0 auto}.tree .fr .m{position:sticky;right:0;background:var(--p)}
+.tree{overflow-x:auto;padding-bottom:8px;touch-action:pan-x pan-y;overscroll-behavior-x:contain}.tree .fr{width:max-content;min-width:100%}.tree .fr .nm{white-space:nowrap;overflow-wrap:normal;flex:1 0 auto;padding-right:8px}.tree .fr .m{position:sticky;right:0;background:var(--p)}
 .fr .nm svg{width:17px;height:17px}.cv{width:14px;height:14px;flex:none;display:grid;place-items:center}.cv svg{width:14px;height:14px;transition:transform .15s}.cv.o svg{transform:rotate(90deg)}
 .ck{width:18px;height:18px;border:2px solid var(--mu);border-radius:6px;flex:none}.ck.on{background:var(--ac);border-color:var(--ac)}
 .bd{display:inline-block;width:20px;text-align:center;border-radius:6px;font-size:11px;margin-right:2px}
