@@ -57,8 +57,9 @@ body.menu #side{transform:none}
 .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
 .tile{flex-direction:column;height:70px;gap:6px;padding:8px 4px;border-radius:14px;font-size:11.5px}.tile svg{width:22px;height:22px;color:var(--ac)}
 .selbar{display:flex;gap:8px;margin-bottom:12px}.selbar button{flex:1;height:40px;font-size:13px}
-.fr{display:flex;align-items:center;min-height:38px;padding-left:calc(6px + var(--d,0)*14px);border-radius:10px}.fr.sel{background:var(--acs)}
-.fr .nm{flex:1;min-width:0;display:flex;align-items:center;gap:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;height:38px}
+.fr{display:flex;align-items:center;min-height:38px;padding-left:calc(4px + var(--d,0)*12px);border-radius:10px}.fr.sel{background:var(--acs)}
+.fr .nm{flex:1;min-width:0;display:flex;align-items:center;gap:8px;min-height:38px;padding:5px 0;white-space:normal;overflow-wrap:anywhere;line-height:1.3}
+.tree{display:grid;grid-template-columns:minmax(100%,max-content);overflow-x:auto;padding-bottom:8px}.tree .fr .nm{white-space:nowrap;overflow-wrap:normal;flex:1 0 auto}.tree .fr .m{position:sticky;right:0;background:var(--p)}
 .fr .nm svg{width:17px;height:17px}.cv{width:14px;height:14px;flex:none;display:grid;place-items:center}.cv svg{width:14px;height:14px;transition:transform .15s}.cv.o svg{transform:rotate(90deg)}
 .ck{width:18px;height:18px;border:2px solid var(--mu);border-radius:6px;flex:none}.ck.on{background:var(--ac);border-color:var(--ac)}
 .bd{display:inline-block;width:20px;text-align:center;border-radius:6px;font-size:11px;margin-right:2px}
@@ -106,3 +107,4 @@ code{background:var(--bg);padding:1px 6px;border-radius:6px;font:12.5px ui-monos
 .box.big{width:100%;max-width:none;height:84dvh;padding:10px;display:flex;flex-direction:column}.box.big iframe{flex:1;border:0;background:#fff;border-radius:10px;margin-top:8px}
 #toast{position:fixed;left:50%;bottom:110px;transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:12px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:30;max-width:90vw;font-weight:600;font-size:14px}#toast.on{opacity:1}
 .A{color:#3ecf6e}.M{color:#e8a838}.D{color:#e5484d}body.noai .aiel{display:none!important}
+ 
