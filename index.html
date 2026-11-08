@@ -1,0 +1,34 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
+<title>CodePocket</title></head><body>
+<div id="app">
+<header>
+<button class="ic" id="bMenu" data-a="menu" data-i="menu"></button>
+<div id="title" data-a="home"></div>
+<button class="ic" data-a="pal" data-i="search"></button>
+<button class="ic" data-a="prev" data-i="play"></button>
+<button class="pr" id="sync" data-a="sync" data-i="cloud">Envoyer<b id="badge"></b></button>
+</header>
+<div id="tabs"></div>
+<div id="main">
+<aside id="side">
+<nav id="rail">
+<button data-a="home" data-i="home"></button>
+<button data-a="tab" data-v="f" data-i="files"></button>
+<button data-a="tab" data-v="s" data-i="search"></button>
+<button data-a="tab" data-v="g" data-i="git"><i class="rb" id="gb"></i></button>
+<button data-a="tab" data-v="h" data-i="cloud"></button>
+<button class="aiel" data-a="tab" data-v="a" data-i="spark"></button>
+<button data-a="tab" data-v="t" data-i="term"></button>
+<button data-a="tab" data-v="c" data-i="gear"></button>
+</nav>
+<div id="panes"><div class="pane" id="p-f"></div><div class="pane" id="p-s"></div><div class="pane" id="p-g"></div><div class="pane" id="p-h"></div><div class="pane" id="p-c"></div><div class="pane" id="p-t"></div><div class="pane" id="p-a"></div></div>
+</aside>
+<div id="scrim" data-a="menu"></div>
+<section id="ed"><div id="cm"></div><div id="viewer"></div></section>
+</div>
+<nav id="keys"></nav>
+<footer id="status"><span data-a="tab" data-v="h" id="sb"></span><span data-a="tab" data-v="g" id="sc"></span><span class="r" id="sp"></span><span id="sl"></span></footer>
+<div id="home"></div><div id="modal"></div><div id="toast"></div>
+</div>
+<script type="module" src="/src/main.js"></script></body></html>
